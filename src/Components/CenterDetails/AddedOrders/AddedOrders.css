@@ -1,0 +1,27 @@
+.added-orders .membership-card {
+  box-shadow: none;
+  border-top: 1px solid #eee;
+}
+.added-orders .membership-card .crd-desc {
+  display: none;
+}
+.added-orders .membership-card .cardhead {
+  align-items: center !important;
+  margin: 0;
+}
+@media only screen and (min-width: 768px) {
+  .added-orders .membership-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .added-orders .membership-card .cardhead {
+    width: 70%;
+  }
+  .added-orders .membership-card .crdfoot {
+    align-items: center !important;
+  }
+  .added-orders .membership-card .crdprice {
+    margin: 0 20px;
+  }
+}

@@ -1,0 +1,214 @@
+.center-block {
+  padding: 30px 0;
+}
+.center-block .block-title {
+  margin-bottom: 16px;
+}
+.center-block .sub-title {
+  font-size: 1.6rem;
+  font-weight: normal;
+  letter-spacing: 0.23px;
+  color: #000;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+.center-block .finess-panel {
+  padding: 20px 20px 119px;
+  border-radius: 20px;
+  background-color: #fdefef;
+  margin-bottom: 30px;
+}
+.center-block .panel-item-fitness {
+  margin-bottom: 10px;
+  display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+
+}
+.center-block .panel-wrp {
+  padding-bottom: 10px;
+}
+.member-panel {
+  padding-bottom: 20px;
+}
+.member-panel .desc {
+  margin-bottom: 20px;
+}
+.member-panel .membership-card {
+  margin-bottom: 10px;
+}
+.member-panel .membership-card:nth-child(odd) {
+  background: #fff4c8;
+}
+.member-panel .membership-card:nth-child(even) {
+  background: #e0ffc8;
+}
+.member-panel .membership-card .crdimg {
+  display: none;
+}
+.member-panel .membership-card .crdtitle {
+  width: 100%;
+}
+.finess-panel .membership-card{
+  padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 40px 0 rgb(0 0 0 / 10%);
+    background-color: #fff;
+    margin-left: 13px;
+    margin-bottom: 15px;
+    width: 357px;
+}
+.orders-panel {
+  border-radius: 20px;
+  box-shadow: 0 -2px 20px 0 rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  padding: 20px 0;
+  position: relative;
+  z-index: 11;
+}
+.orders-panel .arrow-icn {
+  width: 50px;
+  height: 50px;
+}
+.orders-panel .info {
+  padding-left: 20px;
+}
+.orders-panel .info-title {
+  font-size: 2.2rem;
+  line-height: 1.18;
+  margin-bottom: 2px;
+  color: #272b32;
+}
+.orders-panel .info-desc {
+  font-size: 1.4rem;
+  line-height: 1.29;
+  color: #197851;
+}
+.orders-panel .view-link {
+  margin-bottom: 15px;
+}
+.orders-panel .view-link .arrow-icn {
+  position: relative;
+}
+.orders-panel .view-link.active .arrow-icn {
+  transform: rotate(-180deg);
+}
+.continue-order .continue-txt {
+  font-size: 1.8rem;
+  letter-spacing: 0.16px;
+  color: #fff;
+  padding-right: 0;
+  padding-right: 10px;
+}
+.orders-panel .total-txt {
+  font-size: 1.4rem;
+  letter-spacing: 0.18px;
+  color: #fff;
+  line-height: 1.4;
+}
+.orders-panel .continue-link {
+  padding: 20px;
+  border-radius: 20px;
+  background: #000;
+  line-height: 1.5;
+}
+.orders-panel .price {
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: 0.25px;
+  color: #fff;
+  line-height: 1.4;
+}
+.continue-order .arrow-icn {
+  width: 20px;
+  height: 16px;
+}
+.added-order-wrap {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 0 -2px 20px 0 rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  display: none;
+  padding-top: 30px;
+}
+.added-order-wrap.active {
+  display: block;
+}
+.added-order-wrap .order-title {
+  margin-bottom: 30px;
+}
+.added-order-wrap .close-icn {
+  cursor: pointer;
+}
+ .scrollBar{
+   width: 200pxpx;
+  height: 500px;
+  background: transparent;
+  /* overflow: scroll; */
+}
+
+@media only screen and (min-width: 768px) {
+  .orders-panel .view-link {
+    margin-bottom: 0;
+  }
+  .member-panel {
+    padding-bottom: 0;
+  }
+  .orders-panel {
+    height: 104px;
+    padding: 0;
+  }
+  .orders-panel .continue-link {
+    width: 390px;
+  }
+  .center-block .finess-panel {
+    width: 60%;
+  }
+  .center-block .finess-panel {
+    width: calc(100% - 320px);
+  }
+  .center-block .member-panel {
+    width: 300px;
+    margin-left: 20px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .center-block .finess-panel {
+    width: calc(100% - 400px);
+  }
+  .center-block .member-panel {
+    width: 380px;
+    margin-left: 20px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .center-block .finess-panel {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 0;
+  }
+  .center-block {
+    position: relative;
+    padding-bottom: 0;
+  }
+  .center-block .panel-item {
+    width: 50%;
+    padding: 0 10px;
+  }
+  .member-panel .membership-card .crd-desc,
+  .member-panel .membership-card .crdtitle {
+    width: 48%;
+  }
+  .member-panel .membership-card .crdfoot {
+    margin-top: -24px;
+  }
+  .orders-panel {
+    position: absolute;
+    bottom: 35px;
+    left: 0;
+    width: 100%;
+  }
+}

@@ -1,0 +1,102 @@
+@import '../BookingOngoing/OngoingHead/OngoingHead.css';
+
+.profile-box {
+  padding: 20px 20px 30px;
+  border-radius: 20px;
+  box-shadow: 0 4px 40px 0 rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  margin: 30px 0;
+}
+.profile-box .profile-picc {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: solid 2px #fff;
+  overflow: hidden;
+  margin: -80px auto auto;
+  margin-bottom: 20px;
+}
+.profile-box .prof-desc {
+  font-size: 2.4rem;
+  line-height: 1.4;
+  opacity: 1;
+  letter-spacing: 0.3px;
+  text-align: center;
+  color: #000;
+  margin-bottom: 2px;
+}
+.profile-box .edit-link {
+  font-size: 16px;
+  letter-spacing: 0.2px;
+  color: #2d581b;
+}
+.profile-panel .card {
+  padding: 10px 20px;
+  border: 0;
+  border-bottom: 1px solid #e3e3e3;
+}
+.profile-panel .card:last-child {
+  border: 0;
+}
+.profile-panel .icon-caretdown {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
+.profile-panel .card-header {
+  font-size: 1.6rem;
+  letter-spacing: 0.18px;
+  color: #000;
+  line-height: 1.4;
+  width: 100%;
+  background: none;
+  border: 0;
+  text-align: left;
+  position: relative;
+}
+.profile-panel .menu-accordian {
+  border-radius: 20px;
+  border: solid 1px #e3e3e3;
+  background-color: #fff;
+  overflow: hidden;
+}
+.profile-panel .accordion-card {
+  padding-top: 30px;
+  position: relative;
+}
+.profile-panel .accordion-card .help-btn {
+  margin-bottom: 30px;
+}
+.profile-panel .logout-link {
+  font-size: 1.6rem;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #bc1313;
+}
+.profile-panel .accordion-card .verify-link {
+  position: absolute;
+  right: 15px;
+  top: 0;
+  font-size: 1.6rem;
+  letter-spacing: 0.2px;
+  color: #2d581b;
+  background-color: transparent;
+  border: none;
+}
+.reset-word {
+  padding-top: 9px;
+  width: 745px;
+  text-align: end;
+  font-size: medium;
+}
+.reset-word:hover {
+  color: #db9a44;
+  background: #fff;
+}
+
+@media only screen and (min-width: 992px) {
+  .profile-panel .card-header {
+    font-size: 1.8rem;
+  }
+}

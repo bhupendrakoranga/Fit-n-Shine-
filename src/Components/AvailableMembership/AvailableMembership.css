@@ -1,0 +1,95 @@
+@import '../BookingOngoing/OngoingHead/OngoingHead.css';
+@import '../BookingOngoing/OngoingBlock/OngoingBlock.css';
+
+.ongoing-two {
+  padding-bottom: 60px;
+}
+.ongoing-card .crd-txt {
+  margin-bottom: 15px;
+}
+.ongoing-card .crd-price {
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: 0.25px;
+  color: #000;
+}
+.available-membership .info {
+  padding-left: 20px;
+}
+.available-membership .continue-txt {
+  font-size: 1.8rem;
+  letter-spacing: 0.16px;
+  color: #fff;
+  padding-right: 0;
+  padding-right: 10px;
+}
+.available-membership .total-txt {
+  font-size: 1.4rem;
+  letter-spacing: 0.18px;
+  color: #fff;
+  line-height: 1.4;
+}
+.available-membership .continue-link {
+  padding: 20px;
+  border-radius: 20px 20px 0 0;
+  background: #000;
+  line-height: 1.5;
+  width: calc(100% + 40px);
+  border: 1px solid #000;
+  margin: auto -20px -20px;
+}
+.available-membership .continue-link:hover {
+  background: #fff;
+}
+.available-membership .continue-link:hover .total-txt {
+  color: #000;
+}
+.available-membership .continue-link:hover .price {
+  color: #000;
+}
+.available-membership .continue-link:hover .continue-order .continue-txt {
+  color: #000;
+}
+.available-membership .continue-link:hover .continue-order svg g {
+  stroke: #000;
+}
+.available-membership .continue-link .price {
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: 0.25px;
+  color: #fff;
+  line-height: 1.4;
+}
+.available-membership .avail-quest {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  letter-spacing: 0.2px;
+  color: #000;
+  margin-bottom: 10px;
+  font-weight: normal;
+}
+.available-membership .avail-ans {
+  letter-spacing: 0.1px;
+}
+.available-membership .avail-box {
+  margin: 40px 0;
+  padding: 30px 20px;
+  border-radius: 20px;
+  background-color: #fdefef;
+}
+.available-membership .avail-box .validity {
+  margin-bottom: 10px;
+}
+.months {
+  font-size: 16px;
+  opacity: 1;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #000;
+  line-height: 1.5;
+}
+@media only screen and (min-width: 992px) {
+  .ongoing-two {
+    padding-bottom: 90px;
+  }
+}

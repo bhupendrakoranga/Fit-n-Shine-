@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="100" viewBox="0 0 100 100">
+    <defs>
+        <filter id="vk4kn7mzsc" width="150%" height="118.8%" x="-25%" y="-9.4%" filterUnits="objectBoundingBox">
+            <feGaussianBlur in="SourceAlpha" result="shadowBlurInner1" stdDeviation="2"/>
+            <feOffset dy="-5" in="shadowBlurInner1" result="shadowOffsetInner1"/>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+            <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0.6 0 0 0 0 0.894117647 0 0 0 0 0.776470588 0 0 0 1 0"/>
+        </filter>
+        <filter id="xs8lbxnjse" width="150%" height="118.8%" x="-25%" y="-9.4%" filterUnits="objectBoundingBox">
+            <feGaussianBlur in="SourceAlpha" result="shadowBlurInner1" stdDeviation="2"/>
+            <feOffset dy="-5" in="shadowBlurInner1" result="shadowOffsetInner1"/>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+            <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0.6 0 0 0 0 0.894117647 0 0 0 0 0.776470588 0 0 0 1 0"/>
+        </filter>
+        <filter id="4lu19y4evh" width="212.5%" height="126.5%" x="-56.2%" y="-13.2%" filterUnits="objectBoundingBox">
+            <feGaussianBlur in="SourceAlpha" result="shadowBlurInner1" stdDeviation="2"/>
+            <feOffset dy="-5" in="shadowBlurInner1" result="shadowOffsetInner1"/>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+            <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0.6 0 0 0 0 0.894117647 0 0 0 0 0.776470588 0 0 0 1 0"/>
+        </filter>
+        <filter id="dqo3n547uj" width="212.5%" height="126.5%" x="-56.2%" y="-13.2%" filterUnits="objectBoundingBox">
+            <feGaussianBlur in="SourceAlpha" result="shadowBlurInner1" stdDeviation="2"/>
+            <feOffset dy="-5" in="shadowBlurInner1" result="shadowOffsetInner1"/>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+            <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0.6 0 0 0 0 0.894117647 0 0 0 0 0.776470588 0 0 0 1 0"/>
+        </filter>
+        <filter id="q5pz676tym" width="132.1%" height="190%" x="-16.1%" y="-45%" filterUnits="objectBoundingBox">
+            <feGaussianBlur in="SourceAlpha" result="shadowBlurInner1" stdDeviation="2"/>
+            <feOffset dy="-5" in="shadowBlurInner1" result="shadowOffsetInner1"/>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+            <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0.6 0 0 0 0 0.894117647 0 0 0 0 0.776470588 0 0 0 1 0"/>
+        </filter>
+        <rect id="et8c08guqb" width="18" height="48" x="10" y="0" rx="9"/>
+        <rect id="jhmle3v0wd" width="18" height="48" x="56" y="0" rx="9"/>
+        <rect id="vvmtfrevwg" width="8" height="34" x="0" y="7" rx="4"/>
+        <rect id="lue55uiu7i" width="8" height="34" x="76" y="7" rx="4"/>
+        <linearGradient id="55itqkpbda" x1="50%" x2="50%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#CDFFEB"/>
+            <stop offset="100%" stop-color="#6DCFA8"/>
+        </linearGradient>
+        <linearGradient id="lmseyf7rpf" x1="50%" x2="50%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#CDFFEB"/>
+            <stop offset="100%" stop-color="#6DCFA8"/>
+        </linearGradient>
+        <linearGradient id="ejrrqg3hfk" x1="50%" x2="50%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#CDFFEB"/>
+            <stop offset="100%" stop-color="#6DCFA8"/>
+        </linearGradient>
+        <path id="z9n3v9k7bl" d="M28 19H56V29H28z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g fill-rule="nonzero">
+            <g>
+                <g>
+                    <g transform="translate(-1130.000000, -110.000000) translate(1130.000000, 110.000000) translate(50.000000, 50.000000) rotate(-30.000000) translate(-50.000000, -50.000000) translate(8.000000, 26.000000)">
+                        <use fill="url(#55itqkpbda)" xlink:href="#et8c08guqb"/>
+                        <use fill="#000" filter="url(#vk4kn7mzsc)" xlink:href="#et8c08guqb"/>
+                    </g>
+                    <g transform="translate(-1130.000000, -110.000000) translate(1130.000000, 110.000000) translate(50.000000, 50.000000) rotate(-30.000000) translate(-50.000000, -50.000000) translate(8.000000, 26.000000)">
+                        <use fill="url(#55itqkpbda)" xlink:href="#jhmle3v0wd"/>
+                        <use fill="#000" filter="url(#xs8lbxnjse)" xlink:href="#jhmle3v0wd"/>
+                    </g>
+                    <g transform="translate(-1130.000000, -110.000000) translate(1130.000000, 110.000000) translate(50.000000, 50.000000) rotate(-30.000000) translate(-50.000000, -50.000000) translate(8.000000, 26.000000)">
+                        <use fill="url(#lmseyf7rpf)" xlink:href="#vvmtfrevwg"/>
+                        <use fill="#000" filter="url(#4lu19y4evh)" xlink:href="#vvmtfrevwg"/>
+                    </g>
+                    <g transform="translate(-1130.000000, -110.000000) translate(1130.000000, 110.000000) translate(50.000000, 50.000000) rotate(-30.000000) translate(-50.000000, -50.000000) translate(8.000000, 26.000000)">
+                        <use fill="url(#lmseyf7rpf)" xlink:href="#lue55uiu7i"/>
+                        <use fill="#000" filter="url(#dqo3n547uj)" xlink:href="#lue55uiu7i"/>
+                    </g>
+                    <g transform="translate(-1130.000000, -110.000000) translate(1130.000000, 110.000000) translate(50.000000, 50.000000) rotate(-30.000000) translate(-50.000000, -50.000000) translate(8.000000, 26.000000)">
+                        <use fill="url(#ejrrqg3hfk)" xlink:href="#z9n3v9k7bl"/>
+                        <use fill="#000" filter="url(#q5pz676tym)" xlink:href="#z9n3v9k7bl"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

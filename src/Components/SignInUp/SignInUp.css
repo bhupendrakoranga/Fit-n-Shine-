@@ -1,0 +1,128 @@
+.signin-up-wrp {
+  max-width: 450px;
+  width: 100%;
+  max-height: 641px;
+  overflow: auto;
+  border-radius: 20px;
+  background-color: #fff;
+  padding: 20px 15px;
+  position: relative;
+}
+.signin-up-wrp .popup-logo {
+  width: 90px;
+  height: 78px;
+  margin-bottom: 25px;
+}
+.signin-up-wrp .close-icn {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  cursor: pointer;
+}
+.signin-up-wrp .form-control {
+  height: 42px;
+  padding: 7px 20px;
+  border-radius: 20px;
+  background-color: #eee;
+  border: 0;
+  font-size: 1.4rem;
+  letter-spacing: 0.1px;
+  color: #000;
+  line-height: 1.44;
+}
+.signin-up-wrp .form-group {
+  margin-bottom: 20px;
+}
+.signin-up-wrp .desc,
+.signin-up-wrp .forget-pwd {
+  font-size: 1.2rem;
+  line-height: 1.44;
+  letter-spacing: 0.1px;
+  color: #000;
+  margin-bottom: 25px;
+}
+.error_message {
+  padding-top: 4px;
+  padding-left: 10px;
+  color: #ef0b0bde;
+  font: normal normal normal 13px/10px 'Poppins';
+}
+.textfield {
+  font: normal normal 700 11px/12px Poppins;
+  letter-spacing: 0;
+  color: #272d3b;
+  opacity: 1;
+  margin-inline: 13px;
+}
+.signin-up-wrp .desc {
+  margin-bottom: 20px;
+  opacity: 1;
+}
+.signin-up-wrp .desc a {
+  color: #2d581b;
+  font-size: inherit;
+}
+.signin-up-wrp .btn-primary {
+  border-color: #000;
+  width: 100%;
+  border-radius: 20px;
+  background: #000;
+  color: #fff;
+}
+.signin-up-wrp .btn-primary:hover {
+  background: #fff;
+  color: #000;
+}
+.signin-up-wrp .nav-pills {
+  margin-bottom: 25px;
+}
+.signin-up-wrp .nav-pills .nav-link {
+  opacity: 0.3;
+  font-size: 2.4rem;
+  font-weight: bold;
+  letter-spacing: 0.25px;
+  color: #000;
+  line-height: 1.4;
+  position: relative;
+}
+.signin-up-wrp .nav-pills .nav-link.active:after {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 20px;
+  height: 4px;
+  border-radius: 2px;
+  background-color: #000;
+  /* color: #000 !important; */
+  top: calc(100% + 10px);
+  content: '';
+}
+.signin-up-wrp .nav-pills .nav-link.active {
+  opacity: 1;
+}
+.overlay-page.active-flex {
+  display: flex;
+}
+@media only screen and (min-width: 768px) {
+  .signin-up-wrp {
+    padding: 30px 50px 50px;
+  }
+  .signin-up-wrp .popup-logo {
+    margin-bottom: 36px;
+  }
+  .signin-up-wrp .form-control {
+    height: 60px;
+  }
+  .signin-up-wrp .forget-pwd {
+    margin-bottom: 46px;
+  }
+  .signin-up-wrp .btn-primary {
+    height: 85px;
+  }
+  .signin-up-wrp .nav-pills .nav-link {
+    font-size: 3rem;
+  }
+  .signin-up-wrp .nav-pills {
+    margin-bottom: 50px;
+  }
+}

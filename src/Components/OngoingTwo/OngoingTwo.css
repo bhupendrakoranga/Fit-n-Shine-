@@ -1,0 +1,21 @@
+@import '../BookingOngoing/OngoingHead/OngoingHead.css';
+@import '../BookingOngoing/OngoingBlock/OngoingBlock.css';
+.ongoing-card.approval-consent .pending-txt {
+  margin-bottom: 20px;
+}
+.ongoing-card.approval-consent .btn {
+  margin-bottom: 20px;
+  width: 100%;
+  font-size: 1.6rem;
+}
+.ongoing-two {
+  padding-bottom: 60px;
+}
+@media only screen and (min-width: 992px) {
+  .ongoing-card.approval-consent .btn {
+    font-size: 1.8rem;
+  }
+  .ongoing-two {
+    padding-bottom: 90px;
+  }
+}

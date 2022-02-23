@@ -1,0 +1,5 @@
+@import '../AvailableMembership/AvailableMembership.css';
+.ongoing-title.expired-title {
+  color: #bc1313;
+  padding-top: 15px;
+}

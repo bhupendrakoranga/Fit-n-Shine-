@@ -1,0 +1,189 @@
+@import '../../CheckOut/CheckoutBlock/CheckoutBlock.css';
+.checkout-block.payment-method .finess-panel {
+  background: #fff;
+  padding: 0 0 30px;
+}
+.payment-method .add-lnk {
+  font-size: 1.8rem;
+  letter-spacing: 0.18px;
+  color: #2152e2;
+  line-height: 1.4;
+  margin-bottom: 30px;
+}
+.payment-method h2 {
+  margin-bottom: 20px;
+}
+.payment-method .add-lnk:hover {
+  color: blue;
+}
+.addr-card {
+  padding: 20px 20px 30px 20px;
+  border-radius: 20px;
+  border: solid 1px #e3e3e3;
+  background-color: #fff;
+  margin-bottom: 30px;
+}
+.addr-card .check-box {
+  padding: 20px 20px 20px 44px;
+  border-radius: 20px;
+  box-shadow: 0 4px 40px 0 rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  position: relative;
+}
+.addr-card .form-check-label {
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0.2px;
+  color: #000;
+  display: block;
+  position: relative;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.addr-card .form-check-input {
+  position: absolute;
+  left: 0;
+  right: 0;
+  opacity: 0;
+}
+.addr-card .form-check-label:after {
+  content: '';
+  position: absolute;
+  left: -24px;
+  top: 0;
+  width: 14px;
+  height: 14px;
+  border: 1px solid #000;
+  border-radius: 50%;
+}
+.addr-card .form-check-input:checked + .form-check-label:before {
+  content: '';
+  position: absolute;
+  left: -21px;
+  top: 3px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #000;
+}
+.addr-card .desc {
+  font-size: 16px;
+  letter-spacing: 0.2px;
+  color: #000;
+  opacity: 1;
+}
+.method-card {
+  border-radius: 20px;
+  border: solid 1px #e3e3e3;
+  background-color: #fff;
+  overflow: hidden;
+}
+.method-card .card-header {
+  font-size: 1.8rem;
+  letter-spacing: 0.18px;
+  color: #000;
+  line-height: 1.4;
+  width: 100%;
+  background: none;
+  border: 0;
+  text-align: left;
+  position: relative;
+}
+.method-card .card {
+  padding: 20px;
+  border: 0;
+  border-bottom: 1px solid #e3e3e3;
+}
+.method-card .icon-caretdown {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%) rotate(90deg);
+}
+.method-card .icon-caretdown.up {
+  transform: translateY(-50%) rotate(-90deg);
+}
+.addr-card.pay-card {
+  box-shadow: none;
+  border: 0;
+  background: none;
+  padding-bottom: 20px;
+  margin: 0;
+  padding: 0;
+}
+.addr-card.pay-card .form-check-input:checked {
+  height: 100%;
+  width: 100%;
+  box-shadow: 0 4px 40px 0 rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  opacity: 1;
+  border-radius: 20px;
+  border: 0;
+  top: 0;
+}
+.addr-card.pay-card .form-check-input:checked + .form-check-label + .cvv-code {
+  display: flex;
+}
+.addr-card.pay-card .check-box {
+  box-shadow: none;
+  border: 0;
+  background: none;
+  padding-bottom: 0;
+}
+.addr-card.pay-card .form-check-label {
+  z-index: 1;
+}
+.addr-card.pay-card .cvv-code {
+  z-index: 1;
+  position: relative;
+  display: none;
+  padding-bottom: 20px;
+}
+.pay-card .cvv-code .form-control {
+  width: 70px;
+  height: 50px;
+  border-radius: 10px;
+  box-shadow: 0 4px 40px 0 rgba(0, 0, 0, 0.1);
+  border: solid 1px #e3e3e3;
+  background-color: #fff;
+  padding: 10px;
+  text-align: center;
+  opacity: 0.5;
+  font-size: 14px;
+  letter-spacing: 0.12px;
+  color: #000;
+  margin-left: 11px;
+}
+.pay-card .cvv-txt {
+  font-size: 1.2rem;
+  letter-spacing: 0.1px;
+  line-height: 1.4;
+  color: #000;
+}
+.pay-card .card-num {
+  padding-left: 10px;
+  opacity: 0.5;
+}
+.addr-card.pay-card .form-check-label {
+  font-weight: 400;
+}
+.addr-card.pay-card .money-card {
+  width: 35px;
+  height: 20px;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.addr-card.pay-card .add-lnk {
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+.method-card .card-header.active {
+  margin-bottom: 34px;
+}
+@media only screen and (min-width: 768px) {
+  .checkout-block.payment-method .finess-panel {
+    padding-bottom: 110px;
+  }
+}

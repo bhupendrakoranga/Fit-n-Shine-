@@ -1,0 +1,42 @@
+.membership-card {
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 4px 40px 0 rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+.membership-card .crdimg {
+  width: 60px;
+  height: 60px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.membership-card .cardhead {
+  margin-bottom: 6px;
+}
+.membership-card .crd-desc {
+  margin-bottom: 10px;
+}
+.membership-card .crdimg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.membership-card .crd-desc ::first-line{
+color: blue;
+	font-variant: small-caps;
+}
+
+.membership-card .crdtitle {
+  font-size: 1.6rem;
+  letter-spacing: 0.2px;
+  color: #000;
+  line-height: 1.5;
+  width: calc(100% - 70px);
+}
+.membership-card .crdprice {
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 0.25px;
+  color: #000;
+  line-height: 1.4;
+}

@@ -1,0 +1,120 @@
+.category-head {
+  background: #cdffeb;
+  padding: 80px 0 50px;
+  position: relative;
+  overflow: hidden;
+}
+.category-head .select-group .select-opt__value-container {
+  height: 42px;
+}
+.category-head .loc-icn {
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+.category-head .form-group {
+  position: relative;
+  margin-bottom: 15px;
+}
+.category-head .form-control {
+  height: 42px;
+  padding: 7px 15px 7px 50px;
+  border-radius: 10px;
+  box-shadow: 0 4px 40px 0 rgba(0, 0, 0, 0.1);
+  background: #ffffff;
+  font-size: 1.4rem;
+  line-height: normal;
+  letter-spacing: 0.12px;
+  color: #000000;
+  border: 0;
+}
+.category-head .search-btn {
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  transform: translateY(-50%);
+  z-index: 1;
+  border: 0;
+  padding: 0;
+  background: none;
+  width: 22px;
+  height: 22px;
+}
+
+.head-content .info-title {
+  font-size: 2.2rem;
+  font-weight: bold;
+  line-height: 1.4;
+  letter-spacing: 0.25px;
+  color: hsl(156, 34%, 48%);
+}
+.head-content .breadcrumb-item a,
+.head-content .breadcrumb-item {
+  font-size: 1.6rem;
+  letter-spacing: 0.2px;
+  color: #51a583;
+  line-height: 1.5;
+}
+.head-content .breadcrumb-item + .breadcrumb-item::before {
+  content: var(--bs-breadcrumb-divider, '|');
+  font-size: 1.6rem;
+  letter-spacing: 0.2px;
+  color: #51a583;
+  line-height: 1.5;
+}
+@media only screen and (min-width: 768px) {
+  .category-head {
+    padding: 110px 0 80px;
+  }
+  .category-head .form-group:first-child {
+    width: 142px;
+  }
+  .category-head .form-group:last-child {
+    width: 248px;
+  }
+  .category-head .loc-icn {
+    left: 15px;
+  }
+  .category-head form {
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .category-head {
+    padding: 113px 0 17px;
+    position: relative;
+  }
+  .category-head .form-control {
+    height: 50px;
+  }
+  .category-head form {
+    position: absolute;
+    left: 41%;
+    transform: translateX(-50%);
+    top: 15px;
+    z-index: 10;
+  }
+  .head-content .info-title {
+    font-size: 3rem;
+  }
+}
+@media only screen and (min-width: 1199px) {
+  .category-head .container {
+    position: relative;
+  }
+  .category-head .form-group:last-child {
+    width: 428px;
+  }
+  .category-head .loc-icn {
+    left: 15px;
+  }
+  .category-head form {
+    max-width: 580px;
+    left: 42%;
+    top: -99px;
+  }
+}

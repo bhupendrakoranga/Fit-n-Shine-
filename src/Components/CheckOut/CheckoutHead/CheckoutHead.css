@@ -1,0 +1,35 @@
+.checkout-head {
+  background: #eee;
+  padding: 70px 0 30px;
+  position: relative;
+  overflow: hidden;
+}
+.checkout-head .info-title {
+  font-size: 2.2rem;
+  font-weight: normal;
+  line-height: 1.14;
+  color: #272b32;
+}
+.backto-prev {
+  margin-bottom: 40px;
+}
+.backto-prev .text {
+  font-size: 1.4rem;
+  line-height: 1.44;
+  color: #272b32;
+  margin-left: 12px;
+}
+.backto-prev .arrow {
+  position: relative;
+  transform: rotate(-180deg);
+}
+@media only screen and (min-width: 768px) {
+  .checkout-head {
+    padding: 77px 0 30px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .checkout-head .info-title {
+    font-size: 2.8rem;
+  }
+}

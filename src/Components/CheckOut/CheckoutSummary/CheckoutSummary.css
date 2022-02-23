@@ -1,0 +1,22 @@
+.order-summary .summary-title {
+  margin-bottom: 20px;
+}
+.order-summary .wrap {
+  padding: 20px;
+  border-radius: 20px;
+  border: solid 1px #e3e3e3;
+  background-color: #fff;
+  margin-bottom: 20px;
+}
+.order-summary .value,
+.order-summary .txt {
+  font-size: 1.8rem;
+  letter-spacing: 0.2px;
+  color: #000;
+  margin-bottom: 10px;
+  line-height: 1.4;
+}
+.order-summary .summary.total .value,
+.order-summary .summary.total .txt {
+  font-weight: bold;
+}

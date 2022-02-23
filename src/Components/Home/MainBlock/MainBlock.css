@@ -1,0 +1,75 @@
+.main-section {
+  padding: 25px 0;
+  overflow: hidden;
+  margin-bottom: 25px;
+}
+.main-section.service-sec {
+  margin: 0;
+}
+.main-section .slick-list {
+  overflow: visible;
+}
+.main-head {
+  margin-bottom: 20px;
+  width: 66%;
+}
+.main-head.service-head {
+  margin-bottom: 22px;
+}
+.service-slider .service-item {
+  padding-right: 20px;
+}
+.service-item.itm1 .service-card {
+  background: #c3f3c6;
+}
+.service-item.itm1 .card-title {
+  color: #65ab6a;
+}
+.service-item.itm2 .service-card {
+  background: #cdffeb;
+}
+.service-item.itm2 .card-title {
+  color: #51a583;
+}
+.service-item.itm3 .service-card {
+  background: #ffcdcd;
+}
+.service-item.itm3 .card-title {
+  color: #c46565;
+}
+.service-item.itm4 .service-card {
+  background: #cedcd9;
+}
+.service-item.itm4 .card-title {
+  color: #637773;
+}
+.service-item.itm5 .service-card {
+  background: #f1e0f9;
+}
+.service-item.itm5 .card-title {
+  color: #90759d;
+}
+.service-item.itm6 .service-card {
+  background: #e6e3ff;
+}
+.service-item.itm6 .card-title {
+  color: #8c84d4;
+}
+.fitness-slider .fit-item {
+  margin-right: 20px;
+}
+@media only screen and (min-width: 992px) {
+  .main-section {
+    padding: 48px 0;
+    margin-bottom: 50px;
+  }
+  .main-head {
+    margin-bottom: 40px;
+  }
+  .service-slider .service-item {
+    padding-right: 50px;
+  }
+  .main-section:last-child {
+    margin-bottom: 93px;
+  }
+}

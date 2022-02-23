@@ -1,0 +1,28 @@
+.navbar-light .navbar-nav .nav-link {
+  color: #272b32;
+}
+.dropdown-menu {
+  border: 0;
+  padding: 0;
+}
+.header .dropdown-toggle:after {
+  background: url(../images/angle-down.svg) no-repeat center center;
+  background-size: 18px 19px;
+  border: 0;
+  width: 16px;
+  height: 9px;
+  vertical-align: middle;
+}
+.navbar-expand-md .navbar-nav .nav-link {
+  padding-left: 0;
+  padding-right: 0;
+}
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  background: none;
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1197px;
+  }
+}

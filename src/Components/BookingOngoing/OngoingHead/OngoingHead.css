@@ -1,0 +1,27 @@
+@import '../../CenterDetails/CenterHead/CenterHead.css';
+.ongoing-head .info .btn {
+  font-size: 1.6rem;
+  margin-left: 10px;
+  border-radius: 10px;
+}
+.ongoing-head .info .btn.history-btn {
+  background-color: #dedede;
+  border-color: #dedede;
+  color: rgba(0, 0, 0, 0.5);
+}
+.ongoing-head .info .btn.history-btn:hover {
+  color: #000;
+}
+.ongoing-head .info .info-title {
+  margin-right: 10px;
+}
+@media only screen and (min-width: 992px) {
+  .center-head.ongoing-head {
+    padding: 126px 0 32px;
+  }
+}
+@media only screen and (min-width: 1199px) {
+  .center-head.ongoing-head form {
+    top: -113px;
+  }
+}

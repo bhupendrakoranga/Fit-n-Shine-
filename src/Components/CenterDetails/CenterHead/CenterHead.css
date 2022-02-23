@@ -1,0 +1,121 @@
+.center-head {
+  background: #eeeeee;
+  padding: 80px 0 50px;
+  position: relative;
+  overflow: hidden;
+}
+.center-head .select-group .select-opt__value-container {
+  height: 42px;
+}
+.center-head .loc-icn {
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+.center-head .form-group {
+  position: relative;
+  margin-bottom: 15px;
+}
+.center-head .form-control {
+  height: 42px;
+  padding: 7px 15px 7px 50px;
+  border-radius: 10px;
+  box-shadow: 0 4px 40px 0 rgba(0, 0, 0, 0.1);
+  background: #ffffff;
+  font-size: 1.4rem;
+  line-height: normal;
+  letter-spacing: 0.12px;
+  color: #000000;
+  border: 0;
+}
+.center-head .search-btn {
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  transform: translateY(-50%);
+  z-index: 1;
+  border: 0;
+  padding: 0;
+  background: none;
+  width: 22px;
+  height: 22px;
+}
+
+.center-head .info-title {
+  font-size: 2.2rem;
+  font-weight: normal;
+  line-height: 1.14;
+  color: #272b32;
+}
+.center-head .num {
+  font-size: 1.4rem;
+  line-height: 1.5;
+  letter-spacing: 0.2px;
+  color: #000;
+}
+.center-head .rating span {
+  vertical-align: top;
+}
+.center-head .star {
+  margin-top: 2px;
+  margin-left: 5px;
+}
+.center-head .info-icn {
+  cursor: pointer;
+}
+@media only screen and (min-width: 768px) {
+  .center-head {
+    padding: 110px 0 80px;
+  }
+  .center-head .form-group:first-child {
+    width: 142px;
+  }
+  .center-head .form-group:last-child {
+    width: 248px;
+  }
+  .center-head .loc-icn {
+    left: 15px;
+  }
+  .center-head form {
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .center-head {
+    padding: 113px 0 17px;
+    position: relative;
+  }
+  .center-head .form-control {
+    height: 50px;
+  }
+  .center-head form {
+    position: absolute;
+    left: 41%;
+    transform: translateX(-50%);
+    top: 15px;
+    z-index: 10;
+  }
+  .center-head .info-title {
+    font-size: 2.8rem;
+  }
+}
+@media only screen and (min-width: 1199px) {
+  .center-head .container {
+    position: relative;
+  }
+  .center-head .form-group:last-child {
+    width: 428px;
+  }
+  .center-head .loc-icn {
+    left: 15px;
+  }
+  .center-head form {
+    max-width: 580px;
+    left: 42%;
+    top: -99px;
+  }
+}

@@ -1,0 +1,248 @@
+.book-confirmed {
+  padding: 110px 0;
+}
+.book-confirmed .failed-content {
+  max-width: 580px;
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 20px;
+  border: solid 1px #e3e3e3;
+  background-color: #fff;
+  padding: 30px 20px 20px;
+  margin-bottom: 30px;
+}
+.book-confirmed .failed-inner {
+  max-width: 100%;
+}
+.book-confirmed .failed-inner .desc-info {
+  margin-bottom: 30px;
+}
+.book-confirmed .failed-inner .desc-info p {
+  font-size: 14px;
+  line-height: 1.4;
+  letter-spacing: 0.19px;
+  color: #000;
+  margin-bottom: 20px;
+}
+.book-confirmed .failed-inner h2,
+.book-confirmed .failed-inner .faild-emoji {
+  margin-bottom: 20px;
+}
+.booking-services {
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 4px 40px 0 rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  margin-bottom: 20px;
+}
+.booking-services.booked .serv-titlte {
+  color: #000;
+}
+.booking-services .serv-titlte {
+  margin: 0 0 43px;
+  font-size: 16px;
+  font-weight: normal;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #bc1313;
+}
+.book-confirmed .btn {
+  font-size: 1.3rem;
+}
+.book-confirmed .btn img {
+  display: none;
+}
+.book-confirmed .btn.sec-btn img {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 2px;
+  margin-right: 10px;
+}
+.book-confirmed .check-booking {
+  height: 60px;
+  width: 100%;
+  max-width: 580px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.booking-staps {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 12;
+}
+.booking-staps .wrap {
+  max-width: 390px;
+  width: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  overflow: auto;
+  padding: 20px;
+  box-shadow: 0 -4px 40px 0 rgba(0, 0, 0, 0.1);
+  background: #fff;
+}
+.booking-staps .staff-title {
+  margin-bottom: 30px;
+  font-size: 2rem;
+  position: relative;
+}
+.booking-staps .staff-title .back-arrow {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.booking-staps .text-box {
+  padding: 20px;
+  border-radius: 20px;
+  border: solid 1px #e3e3e3;
+  background-color: #fff;
+  margin-bottom: 20px;
+}
+.booking-staps .text-box .desc {
+  font-size: 16px;
+  letter-spacing: 0.2px;
+  color: #000;
+  opacity: 1;
+  line-height: 1.44;
+  margin-bottom: 25px;
+  text-align: left;
+}
+.booking-staps .text-box .desc:last-child {
+  margin-bottom: 0;
+}
+.booking-staps .btn-wrap {
+  margin-top: auto;
+}
+.booking-staps .sec-btn {
+  margin-bottom: 56px;
+}
+.booking-staps .dis-link {
+  font-size: 1.8rem;
+  letter-spacing: 0.18px;
+  color: #bc1313;
+  line-height: 1.4;
+}
+.booking-staps .manage-ht {
+  height: calc(100% - 82px);
+}
+.plan-box {
+  margin: 0 0 46px;
+  padding: 30px 20px;
+  border-radius: 20px;
+  background-color: #fdefef;
+}
+.booking-staps .diet-desc,
+.plan-box .desc {
+  opacity: 1;
+  margin: 0 0 10px;
+  font-size: 1.6rem;
+  letter-spacing: 0.2px;
+}
+.booking-staps .diet-desc {
+  margin-bottom: 30px;
+}
+.question-box {
+  display: none;
+}
+.question-box .box {
+  padding: 20px;
+  border-radius: 20px;
+  border: solid 1px #e3e3e3;
+  background-color: #fff;
+  margin-bottom: 20px;
+}
+.question-box .question {
+  font-size: 1.6rem;
+  letter-spacing: 0.2px;
+  color: #000;
+  opacity: 1;
+  text-align: left;
+}
+.question-box input {
+  width: 100%;
+  border: 0;
+  text-align: left;
+  height: 20px;
+  font-size: 1.6rem;
+  letter-spacing: 0.2px;
+  color: #000;
+}
+.booking-staps .form-check-label {
+  font-size: 1.4rem;
+  letter-spacing: 0.2px;
+  color: #000;
+  opacity: 1;
+  width: 100%;
+  text-align: left;
+  margin-bottom: 20px;
+  padding: 5px 0;
+  position: relative;
+  padding-right: 90px;
+  cursor: pointer;
+}
+.booking-staps .form-check-label:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  width: 60px;
+  height: 22px;
+  border-radius: 15px;
+  background-color: #eee;
+}
+.booking-staps .form-check-label:before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 34px;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 30px;
+  box-shadow: 0 2px 14px 0 rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  border-radius: 50%;
+  transition: all 0.3s ease-in-out;
+  z-index: 1;
+}
+.booking-staps .check-box {
+  position: relative;
+}
+.booking-staps .form-check-input {
+  position: absolute;
+  left: 0;
+  right: 0;
+  opacity: 0;
+}
+.booking-staps .form-check-input:checked + .form-check-label:after {
+  background: #197851;
+}
+.booking-staps .form-check-input:checked + .form-check-label:before {
+  right: -3px;
+}
+.booking-staps .form-check-input:checked + .form-check-label + .question-box {
+  display: block;
+}
+@media only screen and (min-width: 768px) {
+  .book-confirmed {
+    padding: 130px 0;
+  }
+  .book-confirmed .failed-content {
+    padding: 50px 20px 20px;
+    margin-bottom: 59px;
+  }
+  .book-confirmed .btn {
+    font-size: 1.8rem;
+  }
+  .book-confirmed .check-booking {
+    height: 85px;
+  }
+}

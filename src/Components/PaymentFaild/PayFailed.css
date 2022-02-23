@@ -1,0 +1,43 @@
+.payment-failed {
+  padding: 110px 0;
+}
+.failed-content {
+  max-width: 580px;
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 20px;
+  border: solid 1px #e3e3e3;
+  background-color: #fff;
+  padding: 30px 20px;
+}
+.failed-inner {
+  max-width: 290px;
+  width: 100%;
+  margin: 0 auto;
+}
+.failed-inner .desc-info {
+  margin-bottom: 30px;
+}
+.failed-inner .desc-info p {
+  font-size: 14px;
+  line-height: 1.4;
+  letter-spacing: 0.19px;
+  color: #000;
+  margin-bottom: 20px;
+}
+.failed-inner h2,
+.failed-inner .faild-emoji {
+  margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+  .payment-failed {
+    padding: 130px 0;
+  }
+  .failed-content {
+    padding: 50px;
+  }
+  .failed-inner .desc-info {
+    margin-bottom: 170px;
+  }
+}
